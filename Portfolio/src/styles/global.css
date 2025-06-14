@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height:99vh;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+}
