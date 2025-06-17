@@ -1,16 +1,54 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    overflow: hidden;
+  display: block;
+  content: '';
+  height: 62px;
 }
 
-.main-container {
+.container-fluid {
+  max-width: 1320px;
+}
+
+/* Navbar */
+.nb-inner {
+  font-size: 1.25rem;
+  padding-left: 0;
+}
+
+/* Home */
+.wc-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1099;
+}
+
+/* Footer */
+.footer-container {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+@media only screen and (min-width: 878px) {
+  
+} 
+
+@media only screen and (min-width: 506px) {
+  .footer-container {
     display: flex;
-    flex-direction: column;
-    height:99vh;
-    width: 99vw;
-    justify-content: center;
-    align-items: center;
+  }
+
+  .terms-policy {
+    justify-content: flex-start !important;
+  }
 }

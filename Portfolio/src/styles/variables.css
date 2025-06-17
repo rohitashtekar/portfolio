@@ -1,23 +1,13 @@
 :root {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.25rem;
+        font-synthesis: none;
     line-height: 1.5;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);   
 
-    font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    /* Colors */
-    --color-primary: #0a073d;
-    --color-secondary: #22457e;
-    --color-accent: #0b22f5;
-    --color-bg: #ffffff;
-    --color-text: #111827;
-
-    /* Typography */
-    --font-heading: 'Poppins', sans-serif;
-    --font-body: 'Inter', sans-serif;
 }
