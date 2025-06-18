@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import './styles/variables.css'
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
@@ -13,13 +14,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route element={<MainLayout/>}>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/projects' element={<Projects/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/contact' element={<Contact/>}/>
-            <Route path='/terms' element={<Terms/>}/>
-          </Route>
+            <Route element={<MainLayout/>}>
+              <Route path='/' element={<Home/>}/>
+              <Route path='/projects' element={<Projects/>}/>
+              <Route path='/about' element={<About/>}/>
+              <Route path='/contact' element={<Contact/>}/>
+              <Route path='/terms' element={<Terms/>}/>
+            </Route>
         </Routes>
       </BrowserRouter>
     </>
