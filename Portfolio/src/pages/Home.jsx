@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Work from '../components/Work';
-import Contact from '../components/Contact';
 import '../styles/pages/home.css';
 
 const Home = () => {

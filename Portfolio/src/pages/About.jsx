@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import '../styles/pages/about.css';
 import abtImg from '../assets/abt-img.png';
 import Contact from '../components/Contact';
-import Resume from '../components/Resume';
 
 const About = () => {
   return (
