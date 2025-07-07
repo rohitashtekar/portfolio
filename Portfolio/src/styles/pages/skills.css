@@ -1,0 +1,24 @@
+/* Skills */
+.skills-container {
+  padding: 0 5rem;
+}
+
+.sub-header {
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+.skills-grid {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto auto auto;
+  margin-bottom: 3rem;
+}
+
+.skill-domain > h6 {
+  color: white;
+}
+
+.logo-grid > div {
+  padding: 2rem;
+}

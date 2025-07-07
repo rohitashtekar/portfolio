@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;;
         font-size: 1.25rem;
         font-synthesis: none;
     line-height: 1.5;
@@ -9,4 +9,11 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    --background-color: #222322;
+    --foreground-color: ;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #F6FF8D;
+    --toggle-bg: #ffffff;
+    --toggle-fg: #b8b8b8;
 }

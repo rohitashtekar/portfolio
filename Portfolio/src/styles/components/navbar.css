@@ -1,0 +1,28 @@
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #222322;
+  z-index: 999;
+}
+
+.nav-logo {
+  color: white;
+  height: 2.5rem;
+}
+
+.navbar-nav li a{
+  color: white;
+  margin: 0 1rem;
+}
+.navbar-nav li a:hover{
+  color: rgb(120, 120, 120);
+}
+.navbar-nav li a:focus{
+  color: rgb(120, 120, 120);
+}
+
+.disp-mode > svg:hover {
+  cursor: pointer;
+}

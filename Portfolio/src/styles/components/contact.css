@@ -1,0 +1,64 @@
+/* Contact form */
+.contact-head {
+  color: #FFC007;
+  margin-bottom: 1rem;
+  font-weight: 100;
+  text-align: left;
+}
+.contact-head h1 {
+  font-size: 3.5rem;
+}
+.contact-head span {
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  margin-top: 6rem;
+  justify-content: space-around;
+}
+.form-container > h3 {
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  width: 100%;
+}
+
+.form-input {
+  padding: 1rem;
+}
+
+.form-input > label {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.form-input > input,textarea {
+  display: flex;
+  width: 15rem;
+  padding: 0.2rem 0;
+  margin: 1rem 0;
+  border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+  background: none;
+  outline: none;
+}
+.form-input > input,textarea::placeholder {
+  font-weight: 100;
+  opacity: 0.5;
+}
+
+#form-ta {
+  width: 100%;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+}

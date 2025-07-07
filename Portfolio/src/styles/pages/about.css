@@ -1,0 +1,35 @@
+/* About */
+.details {
+  display: flex;
+  margin: 6rem 0;
+    margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.det-text {
+  color: white;
+  text-align: justify;
+}
+
+.det-img-cont {
+  display: flex;
+  justify-content: center;
+}
+.about-img {
+  height: 23rem;
+  max-width: 23rem;
+}
+
+.edu-col p {
+  margin: 1.2rem 0;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+}
+.abt-btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
