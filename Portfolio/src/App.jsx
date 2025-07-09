@@ -12,15 +12,17 @@ import Terms from './pages/Terms';
 import Skills from './pages/Skills';
 import ScrollToTop from './utils/ScrollToTop';
 import Resume from './components/Resume';
+import { useState } from 'react';
 
 function App() {
+  const [isDark, setIsDark] = useState(true);
 
   return (
-    <>  
+    <div className="app" data-theme={ isDark ? "dark" : "light"}> 
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route element={<MainLayout />}>
+          <Route element={<MainLayout isDark={isDark} setIsDark={setIsDark}/>}>
             <Route path='/' element={<Home />} />
             <Route path='/projects' element={<Projects />} />
             <Route path='/skills' element={<Skills />} />
@@ -37,7 +39,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 
