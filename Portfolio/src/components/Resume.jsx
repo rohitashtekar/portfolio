@@ -15,8 +15,8 @@ const Resume = () => {
                 <div className="resume">
                     <div className="res-left col-6">
                         <div className="box">
-                            <button className="btn btn-outline-dark box-btn me-0" onClick={ navigatePageBack }><i className="fa-solid fa-backward"></i> BACK </button>
-                            <a className="btn btn-outline-dark box-btn" href={ RAres } target="_blank"><i className="fa-solid fa-download"> DOWNLOAD </i></a>
+                            <button className="btn btn-dark box-btn me-0" onClick={ navigatePageBack }><i className="fa-solid fa-backward"></i> BACK </button>
+                            <a className="btn btn-dark box-btn" href={ RAres } target="_blank"><i className="fa-solid fa-download"> DOWNLOAD </i></a>
                             <Link to="https://www.linkedin.com/in/rohit-ashtekar-140536125" target="_blank"><i className="fa-brands fa-linkedin fa-2xl text-dark"></i></Link>
                         </div>
                         <div className="left-inner">
