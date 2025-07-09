@@ -1,14 +1,13 @@
 /* About */
 .details {
   display: flex;
-  margin: 6rem 0;
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
   justify-content: center;
   align-items: center;
 }
 
 .det-text {
-  color: white;
+  color: var(--secondary-text-color);
   text-align: justify;
 }
 
@@ -25,8 +24,12 @@
   margin: 1.2rem 0;
 }
 
-.btn-cont {
+.abt-btn-cont {
   display: flex;
+  margin: 0;
+    margin-bottom: 5rem;
+  padding: 2rem 0;
+  background-color: var(--foreground-color);
   justify-content: center;
 }
 .abt-btn {

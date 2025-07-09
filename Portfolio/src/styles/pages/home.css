@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  background-color: #191a19;
+  color: var(--secondary-text-color);
+  background-color: var(--foreground-color);
   font-size: 4rem !important;
   top: 0;
   width: 100%;
@@ -32,7 +32,16 @@
 }
 
 .hero-text p {
-  color: white;
+  color: var(--secondary-text-color);
+}
+
+.hero-text h1 {
+  color: var(--primary-text-color);
+}
+
+.hero-btn {
+  width: 7rem;
+  padding: 0.5rem 1rem;
 }
 
 /* #FFC007 */
@@ -41,8 +50,11 @@
   /* color: #3d155f; */
 /* } */
 
+.desc h4 {
+  color: var(--primary-text-color);
+}
+
 .desc p {
-  color: white;
   text-align: justify;
 }
 
@@ -52,7 +64,7 @@
   height: 22rem;
   width: 12rem;
   top: 4rem;
-  border: 1px solid white;
+  border: 1px solid var(--secondary-text-color);
 }
 
 .img-cont {
@@ -69,7 +81,7 @@
 .container-2 {
   display: flex;
   margin: 2.5rem 0;
-  background-color: #191a19;
+  background-color: var(--foreground-color);
   justify-content: center;
 }
 
@@ -81,22 +93,20 @@
 }
 
 .part-2 h1 {
+  color: var(--primary-text-color);
   margin: 2rem 0;
   transform: translate3d(0, 0, 0);
 }
 .part-2 p {
-  color: white;
+  color: var(--secondary-text-color);
   margin-bottom: 4rem;
   line-height: 1.2;
   font-size: 1.2rem;
   letter-spacing: 0.02em;
 }
-.part-2 button {
-  width: 15rem;
-  padding: 1rem;
-}
 
 .warning-text {
+  color: var(--secondary-text-color);
   font-size: 0.5rem;
 }
 

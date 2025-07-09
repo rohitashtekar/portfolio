@@ -1,6 +1,6 @@
 /* Contact form */
 .contact-head {
-  color: #FFC007;
+  color: var(--tertiary-text-color);
   margin-bottom: 1rem;
   font-weight: 100;
   text-align: left;
@@ -9,7 +9,7 @@
   font-size: 3.5rem;
 }
 .contact-head span {
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 .form-container {
@@ -18,7 +18,7 @@
   justify-content: space-around;
 }
 .form-container > h3 {
-  color: white;
+  color: var(--secondary-text-color);
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -35,7 +35,7 @@
 .form-input > label {
   padding: 0;
   margin: 0;
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 .form-input > input,textarea {
@@ -44,7 +44,7 @@
   padding: 0.2rem 0;
   margin: 1rem 0;
   border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--secondary-text-color);
     border-radius: 0;
   background: none;
   outline: none;

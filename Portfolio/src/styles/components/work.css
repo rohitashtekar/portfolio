@@ -10,12 +10,12 @@
 }
 
 .work-head h1 {
-    color: #FFC007;
+    color: var(--tertiary-text-color);
     margin-bottom: 1rem;
 }
 
 .work-container p {
-    color: white;
+    color: var(--secondary-text-color);
     font-size: 1.3em;
     font-weight: 100;
 }

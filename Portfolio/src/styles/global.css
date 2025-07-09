@@ -6,12 +6,13 @@
 }
 
 body {
-  color: #F6FF8D;
-  padding-top: 83px;
+  padding-top: 70px;
   font-weight: 100;
-  background-color: #222322;
 }
 
+.app {
+  background-color: var(--background-color)
+}
 /* Dark mode */
 /* body {
   color: #4831d4;
@@ -36,13 +37,22 @@ hr {
 
 .header {
   color: white;
-  margin: 5rem 0;
+  padding: 4rem 0;
   font-weight: 100;
   text-align: center;
 }
 
 .btn {
+  width: 15rem;
+  padding: 1rem;
   border-radius: 0;
+  color: var(--button-text-color);
+  border: 1px solid var(--button-border-color);
+}
+.btn:hover {
+  color: var(--button-hover-text-color);
+  background-color: var(--button-hover-bg-color);
+  border: 1px solid var(--button-hover-border-color);
 }
 
 .hide {

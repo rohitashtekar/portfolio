@@ -16,7 +16,7 @@
 }
 
 .skill-domain > h6 {
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 .logo-grid > div {

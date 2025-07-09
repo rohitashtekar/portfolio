@@ -1,6 +1,6 @@
 /* Projects */
 .proj-head {
-  color: white;
+  color: var(--secondary-text-color);
   /* font-size: 1.5rem; */
   text-align: center;
   margin: 5rem 0;
@@ -16,8 +16,8 @@
   text-align: justify;
   max-width: 20rem;
   padding: 1rem;
-  background-color: #191a19;
-  box-shadow: 2px 2px 4px 0px #191a19;
+  background-color: var(--foreground-color);
+  box-shadow: 2px 2px 4px 0px var(--foreground-color);
   transition: 0.2s;
 }
 .project-card:hover {
@@ -26,7 +26,7 @@
 }
 
 .project-card > h6 {
-  color: white;
+  color: var(--secondary-text-color);
   max-width: 18rem;
   margin-top: 1rem;
   text-align: left;
@@ -41,13 +41,13 @@
 }
 
 .project-card > p {
-  color: white;
+  color: var(--secondary-text-color);
   max-width: 18rem;
   text-align: justify;
 }
 
 .project-details {
-  color: white;
+  color: var(--secondary-text-color);
   margin: 3rem 0;
   padding: 0 5rem;
   text-align: justify;
