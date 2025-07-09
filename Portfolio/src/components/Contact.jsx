@@ -27,7 +27,7 @@ const Contact = () => {
                         <textarea type="textarea" id="form-ta" placeholder="Enter your message" required={true}/>
                     </div>
                     <div className="btn-cont">
-                        <button type="submit" className="btn btn-outline-light my-3 px-3">SUBMIT</button>
+                        <button type="submit" className="btn my-3">Submit <i className="bi bi-arrow-right ps-2"></i></button>
                     </div>
                 </form>
             </section>
