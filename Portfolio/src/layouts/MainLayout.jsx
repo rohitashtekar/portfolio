@@ -2,10 +2,10 @@ import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 
-const MainLayout = () => {
+const MainLayout = ({ isDark, setIsDark }) => {
   return (
     <>
-        <Navbar/>
+        <Navbar isDark={isDark} setIsDark={setIsDark} />
           <main id='main'>
             <Outlet/>
           </main>
