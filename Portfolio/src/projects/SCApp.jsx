@@ -3,7 +3,7 @@ import '../styles/projects/sca.css';
 const SCApp = () => {
     return (
         <>
-            <section className="container-fluid">
+            <section className="container-fluid project-detail-cont">
                 <div className="project-details">
                     <p>
                         I developed The SecondClinic, a comprehensive React-based web application designed to provide users with the opportunity to upload their medical reports and receive second opinions from specialized doctors across various medical fields. The core objective of this platform is to enhance access to healthcare by allowing users to consult with top-tier doctors for a second perspective on their medical diagnoses, without the need to physically visit a clinic.

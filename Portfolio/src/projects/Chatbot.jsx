@@ -3,7 +3,7 @@ import '../styles/projects/chatbot.css';
 const Chatbot = () => {
   return (
     <>
-      <section className="container-fluid">
+      <section className="container-fluid project-detail-cont">
         <div className="project-details">
           <p>
             I developed a Career Guidance Chatbot integrated into a dynamic, user-friendly website designed to assist students from diverse educational backgrounds in exploring potential career paths. The primary objective of this project was to create an accessible digital tool that could guide students in making informed career decisions through interactive and personalized conversations.

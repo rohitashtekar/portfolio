@@ -3,7 +3,7 @@ import '../styles/projects/coffeeOrder.css';
 const CoffeeOrder = () => {
   return (
     <>
-      <section className="container-fluid">
+      <section className="container-fluid project-detail-cont">
         <div className="project-details">
           <p>
             I developed a Coffee Order Application designed to streamline the ordering process at restaurants, allowing customers to place their beverage orders directly from their smartphones, thus eliminating the need to wait for a waiter to take their order. This Android-based application offers a small, curated menu of beverages, which includes a selection of coffee, tea, and other hot drinks, providing customers with a convenient and efficient way to browse the available options and make their selection.
