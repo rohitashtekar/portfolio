@@ -59,3 +59,7 @@ hr {
 .hide {
   display: none !important;
 }
+
+.project-detail-cont {
+  padding-top: 1rem;
+}
