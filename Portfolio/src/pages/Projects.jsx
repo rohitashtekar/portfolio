@@ -20,7 +20,7 @@ const Projects = () => {
               <div className="project-img">
                 <img src={doctor} alt="" />
               </div>
-              <h6>Second Clinic Web App</h6>
+              <h6>Healthcare Web App</h6>
               {/* <span>March 2025 - May 2025</span> */}
             </div>
           </Link>
