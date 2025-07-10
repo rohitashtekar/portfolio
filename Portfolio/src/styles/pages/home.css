@@ -12,9 +12,10 @@
   height: 100vh;
   z-index: 1099;
   transition: transform 2.5s ease;
-    transition-delay: 1.5s;
+  transition-delay: 1.5s;
 }
-.ss-anim{
+
+.ss-anim {
   transform: translateY(-100%);
 }
 
@@ -40,14 +41,14 @@
 }
 
 .hero-btn {
-  width: 7rem;
-  padding: 0.5rem 1rem;
+  width: 8.5rem;
+  padding: 1rem;
 }
 
 /* #FFC007 */
 /* Dark mode */
 /* .hero-text span { */
-  /* color: #3d155f; */
+/* color: #3d155f; */
 /* } */
 
 .desc h4 {
@@ -72,8 +73,8 @@
   height: inherit;
   width: inherit;
   background: url('../../assets/hero-img.png');
-    background-size: cover;
-    background-position-x: 22%;
+  background-size: cover;
+  background-position-x: 22%;
   margin-top: -1rem;
   margin-left: -1rem;
 }
@@ -97,6 +98,7 @@
   margin: 2rem 0;
   transform: translate3d(0, 0, 0);
 }
+
 .part-2 p {
   color: var(--secondary-text-color);
   margin-bottom: 4rem;
@@ -110,7 +112,111 @@
   font-size: 0.5rem;
 }
 
-.part-left, .part-right {
+.part-left,
+.part-right {
   width: 20rem;
   text-align: center;
+}
+
+/* ✅ Tablet (iPad and ≤992px) */
+@media (max-width: 992px) {
+
+  .part-1,
+  .part-2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  .hero-text {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .hero-img-cont {
+    margin-top: 2rem;
+    height: 18rem;
+    width: 10rem;
+    top: 0;
+  }
+
+  .desc p {
+    padding: 0 1rem;
+    text-align: justify;
+  }
+
+  .part-2 h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .part-2 p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .part-left,
+  .part-right {
+    width: 100%;
+    max-width: 30rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* ✅ Mobile (≤600px) */
+@media (max-width: 600px) {
+  .ss-container {
+    font-size: 2rem !important;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .part-1,
+  .part-2 {
+    padding: 0 1rem;
+    margin: 3rem 0;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .hero-btn {
+    width: 100%;
+    max-width: 10rem;
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+
+  .hero-img-cont {
+    height: 14rem;
+    width: 8rem;
+  }
+
+  .part-2 h1 {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+  }
+
+  .part-2 p {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .part-left,
+  .part-right {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .warning-text {
+    font-size: 0.6rem;
+  }
 }

@@ -15,6 +15,7 @@
   display: flex;
   justify-content: center;
 }
+
 .about-img {
   height: 23rem;
   max-width: 23rem;
@@ -27,12 +28,71 @@
 .abt-btn-cont {
   display: flex;
   margin: 0;
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
   padding: 2rem 0;
   background-color: var(--foreground-color);
   justify-content: center;
 }
+
 .abt-btn {
   font-size: 1.2rem;
   padding: 1rem 2rem;
+}
+
+/* 🌐 Tablet (iPad and ≤992px) */
+@media (max-width: 992px) {
+  .details {
+    flex-direction: column;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .about-img {
+    height: 18rem;
+    max-width: 18rem;
+    margin-bottom: 2rem;
+  }
+
+  .det-text {
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .abt-btn {
+    font-size: 1.1rem;
+    padding: 0.9rem 1.8rem;
+  }
+}
+
+/* 📱 Mobile (≤600px) */
+@media (max-width: 600px) {
+  .details {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .about-img {
+    height: 15rem;
+    max-width: 15rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .det-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .edu-col p {
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+
+  .abt-btn-cont {
+    padding: 1.5rem 0;
+  }
+
+  .abt-btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
 }

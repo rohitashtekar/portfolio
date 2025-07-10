@@ -19,3 +19,38 @@
     font-size: 1.3em;
     font-weight: 100;
 }
+
+/* 🌐 Tablet (≤992px) */
+@media (max-width: 992px) {
+    .work-container {
+        padding: 0 2rem;
+    }
+
+    .work-head h1 {
+        font-size: 2.2rem;
+    }
+
+    .work-container p {
+        font-size: 1.1em;
+        text-align: center;
+        line-height: 1.5;
+        max-width: 600px;
+    }
+}
+
+/* 📱 Mobile (≤600px) */
+@media (max-width: 600px) {
+    .work-container {
+        padding: 0 1rem;
+    }
+
+    .work-head h1 {
+        font-size: 1.8rem;
+    }
+
+    .work-container p {
+        font-size: 1rem;
+        line-height: 1.6;
+        padding: 0 0.5rem;
+    }
+}
