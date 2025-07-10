@@ -62,8 +62,8 @@ const Home = () => {
         <div className="part-2 container-fluid">
           <div className="part-left">
             <h1>
-              I code, build & <br/>
-              debug stuff
+              I code & <br/>
+              build stuff
             </h1>
             <p>
               Turning designs into 
