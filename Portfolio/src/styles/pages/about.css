@@ -1,28 +1,46 @@
-/* About */
+.about-inner {
+  padding: 0 5rem;
+}
+
 .details {
   display: flex;
-  margin-bottom: 3rem;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .det-text {
   color: var(--secondary-text-color);
   text-align: justify;
+  flex: 1 1 40rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
 }
 
 .det-img-cont {
   display: flex;
   justify-content: center;
+  flex: 1 1 20rem;
 }
 
 .about-img {
   height: 23rem;
-  max-width: 23rem;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .edu-col p {
   margin: 1.2rem 0;
+}
+
+.details-lower {
+  color: var(--secondary-text-color);
+  margin-bottom: 3rem;
+  flex: 1 1 40rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 .abt-btn-cont {
@@ -37,25 +55,30 @@
 .abt-btn {
   font-size: 1.2rem;
   padding: 1rem 2rem;
+  width: auto;
 }
 
-/* 🌐 Tablet (iPad and ≤992px) */
+/* ---------- Tablet (≤992px) ---------- */
 @media (max-width: 992px) {
+  .about-inner {
+    padding: 0 2rem;
+  }
+
   .details {
     flex-direction: column;
-    padding: 0 2rem;
     text-align: center;
+    gap: 2rem;
   }
 
   .about-img {
     height: 18rem;
-    max-width: 18rem;
-    margin-bottom: 2rem;
+    max-width: 80%;
   }
 
   .det-text {
     text-align: justify;
     font-size: 1rem;
+    padding: 0 1rem;
   }
 
   .abt-btn {
@@ -64,26 +87,34 @@
   }
 }
 
-/* 📱 Mobile (≤600px) */
+/* ---------- Mobile (≤600px) ---------- */
 @media (max-width: 600px) {
-  .details {
-    flex-direction: column;
+  .about-inner {
     padding: 0 1rem;
+  }
+
+  .details {
+    gap: 1.5rem;
   }
 
   .about-img {
     height: 15rem;
-    max-width: 15rem;
-    margin-bottom: 1.5rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
   }
 
   .det-text {
     font-size: 0.95rem;
+    padding: 0;
     line-height: 1.6;
   }
 
   .edu-col p {
     margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+
+  .details-lower {
     font-size: 0.95rem;
   }
 
