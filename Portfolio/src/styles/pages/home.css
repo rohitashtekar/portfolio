@@ -120,7 +120,7 @@
 .part-left,
 .part-right {
   width: 20rem;
-  text-align: center;
+  text-align: left;
 }
 
 /* ✅ Tablet (iPad and ≤992px) */
