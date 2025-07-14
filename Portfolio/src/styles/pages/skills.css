@@ -1,4 +1,4 @@
-/* Skills */
+/* Skills Section */
 .skills-container {
   padding: 0 5rem;
 }
@@ -41,12 +41,17 @@
   .logo-grid>div {
     padding: 1.5rem;
   }
+
+  .skill-domain>h6 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 }
 
-/* ---------- Mobile (≤600px) ---------- */
-@media (max-width: 600px) {
+/* ---------- Mobile (≤768px) ---------- */
+@media (max-width: 768px) {
   .skills-container {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 
   .skills-grid {
@@ -56,11 +61,55 @@
   }
 
   .logo-grid>div {
+    padding: 1.2rem;
+  }
+
+  .skill-domain>h6 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+/* ---------- Very Small Mobile (≤600px) ---------- */
+@media (max-width: 600px) {
+  .skills-container {
+    padding: 0 1rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    /* Stack into 1 column */
+    gap: 25px;
+  }
+
+  .logo-grid>div {
     padding: 1rem;
   }
 
   .skill-domain>h6 {
     font-size: 1rem;
+    text-align: center;
+  }
+}
+
+/* ---------- Extra Small Mobile (≤400px) ---------- */
+@media (max-width: 400px) {
+  .skills-container {
+    padding: 0 0.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    /* Stack into 1 column */
+    gap: 20px;
+  }
+
+  .logo-grid>div {
+    padding: 0.8rem;
+  }
+
+  .skill-domain>h6 {
+    font-size: 0.9rem;
     text-align: center;
   }
 }

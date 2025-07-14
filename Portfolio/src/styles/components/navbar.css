@@ -8,6 +8,7 @@
 }
 
 .nav-logo {
+  position: relative;
   color: var(--secondary-text-color);
   height: 2.5rem;
 }
