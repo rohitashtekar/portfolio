@@ -38,7 +38,7 @@ const Home = () => {
             <span className="img-cont"></span>
           </div>
 
-          <div className="hero-text flex-column col-4 ps-5">
+          <div className="hero-text flex-column col-4">
             <div className="desc">
               <h4>Website Development</h4>
               <p>Based in India, I thrive in creating impactful digital experiences.</p>
