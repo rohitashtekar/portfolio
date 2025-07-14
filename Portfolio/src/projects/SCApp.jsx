@@ -6,8 +6,7 @@ const SCApp = () => {
             <section className="container-fluid project-detail-cont">
                 <div className="project-details">
                     <p>
-                        Project Summary: Online Healthcare Consultation Platform
-                        I developed a React-based web application designed to improve access to healthcare by enabling users to connect with specialized doctors for second opinions. The platform eliminates the need for in-person visits by allowing users to choose a medical specialist and make a secure payment to initiate an online consultation.
+                        I developed the front-end for a React-based web application designed to improve access to healthcare by enabling users to connect with specialized doctors for second opinions. The platform eliminates the need for in-person visits by allowing users to choose a medical specialist and make a secure payment to initiate an online consultation.
                     </p>
                     <p>
                         Core Features
@@ -26,7 +25,7 @@ const SCApp = () => {
                         The back-end is built using Node.js, which primarily handles:
                     </p>
                     <p>
-                        Fetching Doctor Data: <br />
+                        Fetching Doctor Data:
                         The server retrieves information about available doctors, including their specialization, credentials, and availability.
                     </p>
                     <p>
@@ -34,24 +33,19 @@ const SCApp = () => {
                         An administrative panel allows the admin to add, update, or remove doctors from the platform, keeping the system current and reliable.
                     </p>
                     <p>
-                        Key Implementation Highlights
-                        No File Uploads:
-                        Unlike traditional telemedicine platforms, this app does not allow users to upload medical documents. Instead, the focus is on connecting users with the right specialist for a professional opinion or advice.
-                    </p>
-                    <p>
                         Simplified Architecture:
                         The system is intentionally lightweight, prioritizing ease of use, performance, and security. Node.js powers the server-side logic, while MySQL is used for storing doctor data and user interactions.
                     </p>
+                    <hr />
                     <p>
-                        Technology Stack <br />
-                        Frontend: React.js, HTML, CSS, Bootstrap
+                        Technology Stack 
                     </p>
                     <p>
-
-                        Backend: Node.js
-                        Database: MySQL
+                        Frontend: React.js, HTML, CSS, Bootstrap <br />
+                        Backend: Node.js <br />
+                        Database: MySQL <br />
+                        Tools: Stripe (payment gateway)
                     </p>
-
                     <p>
                         Outcome: <br />
                         This project allowed me to gain hands-on experience in full-stack web development, particularly in building real-world healthcare platforms that focus on accessibility, specialization, and usability. It also deepened my understanding of designing scalable and secure web applications while balancing simplicity with professional utility.
