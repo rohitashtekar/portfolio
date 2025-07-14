@@ -6,28 +6,56 @@ const SCApp = () => {
             <section className="container-fluid project-detail-cont">
                 <div className="project-details">
                     <p>
-                        I developed a healthcare app, a comprehensive React-based web application designed to provide users with the opportunity to upload their medical reports and receive second opinions from specialized doctors across various medical fields. The core objective of this platform is to enhance access to healthcare by allowing users to consult with top-tier doctors for a second perspective on their medical diagnoses, without the need to physically visit a clinic.
+                        Project Summary: Online Healthcare Consultation Platform
+                        I developed a React-based web application designed to improve access to healthcare by enabling users to connect with specialized doctors for second opinions. The platform eliminates the need for in-person visits by allowing users to choose a medical specialist and make a secure payment to initiate an online consultation.
                     </p>
                     <p>
-                        The Web app allows users to choose doctors based on their area of expertise, such as cardiology, dermatology, neurology, or other specialized fields. This feature enables users to receive tailored advice and insights from experts with the most relevant experience for their medical concerns. The application’s workflow is designed to be intuitive: users can upload their medical reports in various formats, such as images or PDFs, and then select a doctor from a list of available specialists.
+                        Core Features
+                        Doctor Selection by Specialty:
+                        Users can browse and select doctors based on their area of expertise, such as cardiology, dermatology, neurology, and more. This ensures that users receive tailored medical guidance relevant to their condition.
                     </p>
                     <p>
-                        For the front-end development, I used React.js to build a dynamic and responsive interface that ensures a seamless user experience. The app provides an easy-to-navigate layout where users can quickly upload their reports, choose their preferred specialist, and communicate with the doctor through a chat or consultation feature. The UI is styled using HTML and CSS, with special attention to accessibility, visual appeal, and usability. I focused on creating a responsive design to ensure optimal performance across a wide range of devices, including smartphones, tablets, and desktops.
+                        Secure Online Consultation Access:
+                        Once a doctor is selected, users can make a payment to gain access to consultation services. The system is designed to be intuitive, offering a streamlined workflow from specialist selection to payment completion.
                     </p>
                     <p>
-                        On the back-end, the application is powered by Node.js, which ensures fast and efficient processing of user requests, such as report uploads, doctor selection, and consultation scheduling. The Node.js server is responsible for handling file uploads, user authentication, and maintaining communication with the database. The application’s MySQL database is used for securely storing and managing user data, medical reports, doctor profiles, and consultations. By using MySQL, I ensured that sensitive information is securely stored and easily retrievable, following best practices for data security and privacy.
+                        Responsive User Interface:
+                        The front-end is built with React.js, offering a dynamic and responsive interface that works smoothly across all device types—smartphones, tablets, and desktops. Styling is handled with HTML, CSS, and Bootstrap, with attention given to accessibility, user experience, and visual design.
                     </p>
                     <p>
-                        One of the main challenges was ensuring that the system could handle large medical files efficiently, such as high-resolution images of medical scans, and still provide users with a smooth and quick experience. To address this, I optimized the file-uploading process and implemented robust error handling for all forms of data input.
+                        The back-end is built using Node.js, which primarily handles:
                     </p>
                     <p>
-                        The platform also includes user authentication and account management features, allowing users to create profiles, track their medical reports and consultations, and receive notifications about new feedback from their chosen doctors. To make the app as user-friendly as possible, I included a real-time communication system where users can directly interact with their chosen doctors through secure messaging, offering timely and professional feedback.
+                        Fetching Doctor Data: <br />
+                        The server retrieves information about available doctors, including their specialization, credentials, and availability.
                     </p>
                     <p>
-                        Overall, this project gave me invaluable experience in building a full-stack web application, integrating front-end technologies with back-end frameworks, and working with medical data management. It also strengthened my knowledge in developing applications that require high performance, security, and scalability while prioritizing user privacy.
+                        Admin Management Tools:
+                        An administrative panel allows the admin to add, update, or remove doctors from the platform, keeping the system current and reliable.
                     </p>
-                    <hr />
-                    <p>Technology Stack: React, Node.js, MySQL, HTML, CSS, Bootstrap.</p>
+                    <p>
+                        Key Implementation Highlights
+                        No File Uploads:
+                        Unlike traditional telemedicine platforms, this app does not allow users to upload medical documents. Instead, the focus is on connecting users with the right specialist for a professional opinion or advice.
+                    </p>
+                    <p>
+                        Simplified Architecture:
+                        The system is intentionally lightweight, prioritizing ease of use, performance, and security. Node.js powers the server-side logic, while MySQL is used for storing doctor data and user interactions.
+                    </p>
+                    <p>
+                        Technology Stack <br />
+                        Frontend: React.js, HTML, CSS, Bootstrap
+                    </p>
+                    <p>
+
+                        Backend: Node.js
+                        Database: MySQL
+                    </p>
+
+                    <p>
+                        Outcome: <br />
+                        This project allowed me to gain hands-on experience in full-stack web development, particularly in building real-world healthcare platforms that focus on accessibility, specialization, and usability. It also deepened my understanding of designing scalable and secure web applications while balancing simplicity with professional utility.
+                    </p>
                 </div>
             </section>
         </>
