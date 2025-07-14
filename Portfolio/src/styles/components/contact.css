@@ -58,7 +58,6 @@ textarea {
 .form-input>input,
 textarea::placeholder {
   font-weight: 100;
-  opacity: 0.5;
 }
 
 #form-ta {
