@@ -194,7 +194,6 @@
 
   .hero-text p {
     font-size: 1rem;
-    padding: 0 1rem;
   }
 
   .hero-btn {
@@ -256,7 +255,6 @@
 
   .hero-text p {
     font-size: 0.95rem;
-    padding: 0 1rem;
   }
 
   .hero-btn {
@@ -312,7 +310,7 @@
 
   .hero-text p {
     font-size: 0.85rem;
-    padding: 0 0;
+    padding: 0;
   }
 
   .hero-btn {
