@@ -34,9 +34,9 @@ const Navbar = ({ isDark, setIsDark }) => {
                                 <Link className="nav-link" aria-current="page" to="/about">ABOUT</Link>
                             </li>
                         </ul>
-                    </div>
                     <div className="disp-mode ms-3" onClick={ toggleTheme }>
                         <i className="fa-solid fa-circle-half-stroke"></i>
+                    </div>
                     </div>
                     {/* <div className="d-flex ms-3" role="email">
                         <button className="btn btn-outline-light" type="submit">rrashtekar@gmail.com</button>
