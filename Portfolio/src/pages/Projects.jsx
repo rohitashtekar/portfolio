@@ -13,10 +13,10 @@ const Projects = () => {
         <div>
           <h3 className="header">PAST PROJECTS</h3>
         </div>
-        <div className="project-list container-fluid p-0">
+        <div className="project-list container-fluid">
 
           <Link to="/projects/secondclinic">
-            <div className="container-fluid project-card ms-0">
+            <div className="container-fluid project-card">
               <div className="project-img">
                 <img src={doctor} alt="" />
               </div>
@@ -36,7 +36,7 @@ const Projects = () => {
           </Link>
 
           <Link to="/projects/coffeeorder">
-            <div className="container-fluid project-card me-0">
+            <div className="container-fluid project-card">
               <div className="project-img">
                 <img src={coffee} alt="Coffee Order Application" />
               </div>
