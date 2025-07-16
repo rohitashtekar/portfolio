@@ -57,6 +57,7 @@
     --button-hover-bg-color: #ffffff;
     --button-border-color: #ffffff;
     --button-hover-border-color: #ffffff;
+    --secondary-button-color: #000000;
 }
 
 /* 🌚 Dark Theme */
@@ -78,4 +79,5 @@
     --button-hover-bg-color: #000000;
     --button-border-color: #000000;
     --button-hover-border-color: #000000;
+    --secondary-button-color: #000000;
 }
