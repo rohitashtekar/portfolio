@@ -12,7 +12,7 @@ const Navbar = ({ isDark, setIsDark }) => {
     return (
         <>
             <nav className="navbar navbar-expand-lg">
-                <div className="container-fluid px-0">
+                <div className="container-fluid">
                     <Link to="/">
                         <img className="nav-logo" src={ isDark? brandLight: brandDark } alt="Logo" />
                     </Link>
