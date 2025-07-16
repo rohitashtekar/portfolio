@@ -13,11 +13,11 @@ const Resume = () => {
         <>
             <section className="res-section container-fluid">
                 <div className="resume">
-                    <div className="res-left col-6">
+                    <div className="res-left">
                         <div className="box">
-                            <button className="btn btn-dark box-btn me-0" onClick={ navigatePageBack }><i className="fa-solid fa-backward"></i> BACK </button>
-                            <a className="btn btn-dark box-btn" href={ RAres } target="_blank"><i className="fa-solid fa-download"> DOWNLOAD </i></a>
-                            <Link to="https://www.linkedin.com/in/rohit-ashtekar-140536125" target="_blank"><i className="fa-brands fa-linkedin fa-2xl text-dark"></i></Link>
+                            <button className="btn box-btn" onClick={ navigatePageBack }><i className="fa-solid fa-backward"></i> BACK </button>
+                            <a className="btn box-btn" href={ RAres } target="_blank"><i className="fa-solid fa-download"> DOWNLOAD </i></a>
+                            <Link className="box-btn" to="https://www.linkedin.com/in/rohit-ashtekar-140536125" target="_blank"><i className="fa-brands fa-linkedin fa-2xl text-dark"></i></Link>
                         </div>
                         <div className="left-inner">
                             <div className="left-p lp1">
@@ -86,24 +86,14 @@ const Resume = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="res-right col-6">
+                    <div className="res-right">
                         <div className="res-header">
                             <h1>ROHIT ASHTEKAR</h1>
                         </div>
-                        <div>
+                        <div className="res-subheader">
                             <h4>Software Developer</h4>
                         </div>
                         <article className="right-inner">
-                            <div className="summary">
-                                <h5>Summary</h5>
-                                <p>
-                                    I am a Full Stack Developer with 3 years of experience in
-                                    building dynamic, responsive, and scalable web applications.
-                                    Skilled in React JS, JavaScript, TypeScript, HTML5, and CSS, I
-                                    specialize in crafting intuitive user interfaces and optimizing
-                                    performance for seamless user experiences.
-                                </p>
-                            </div>
                             <div className="work-exp">
                                 <h5>Work Experience</h5>
                                 <div className="we-comp mt-0">
