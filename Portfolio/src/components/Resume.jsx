@@ -41,7 +41,7 @@ const Resume = () => {
                                 <h6 className="mt-3">UI/UX & Front-End:</h6>
                                 <span>
                                     React.js
-                                    (Vite), React Router, HTML5,
+                                    (Vite), React Router, React Hooks, HTML5,
                                     CSS3, Bootstrap, Responsive
                                     Design
                                 </span>
@@ -52,7 +52,7 @@ const Resume = () => {
                                 </span>
                                 <h6>Back-End:</h6>
                                 <span>
-                                    Node.js, Nest.js, REST
+                                    Node.js, REST
                                     APIs
                                 </span>
                                 <h6>Tools & Platforms:</h6>
@@ -61,21 +61,14 @@ const Resume = () => {
                                     GitHub, Postman, Jira,
                                     Confluence
                                 </span>
-                                <h6>Cloud & Databases: </h6>
+                                <h6>Database: </h6>
                                 <span>
-                                    AWS (S3),
-                                    Azure, MySQL
+                                    MySQL
                                 </span>
                                 <h6>Testing:</h6>
                                 <span>
                                     Basic familiarity with
                                     JEST
-                                </span>
-                                <h6>Soft Skills:</h6>
-                                <span>
-                                    Team collaboration,
-                                    Attention to detail, Design-thinking mindset
-
                                 </span>
                             </div>
                             <div className="left-p lp4">
@@ -112,9 +105,6 @@ const Resume = () => {
                                             rates.
                                         </li>
                                         <li>
-                                            Managed multiple project timelines efficiently, ensuring high-quality deliverables within tight deadlines
-                                        </li>
-                                        <li>
                                             Implemented comprehensive error handling and debugging procedures, minimizing post-deployment issue
                                         </li>
                                     </ul>
@@ -125,17 +115,23 @@ const Resume = () => {
                                     <span>October 2021 – February 2024</span>
                                     <ul>
                                         <li>
-                                            Built websites that were cross-browser compatible and met accessibility standards, resulting in faster load
-                                            time. Worked in an Agile environment using Jira, ensuring efficient sprint cycles and feature delivery
+                                            Developed key front-end features including infinite scroll, image carousel, ad units, and dynamic event pages using 
+                                            JavaScript, HTML, and CSS — resulting in smoother user interactions across multiple client websites.
                                         </li>
                                         <li>
-                                            Utilized JavaScript to integrate third-party tools (Amplitude, Google analytics) for event tracking and analytics.
+                                            Improved web performance and load times by resolving UI bugs and optimizing page components.
+                                        </li>
+                                        <li>
+                                            Integrated third-party tools such as Amplitude and Google Analytics for real-time event tracking.
                                         </li>
                                         <li>
                                             Implemented Securiti.ai, a Cookie consent management platform, enhancing user experience and compliance
                                         </li>
                                         <li>
-                                            Collaborated with designers, product owners, and QA testers throughout the development process.
+                                            Contributed in Agile/Scrum teams using Jira for sprint planning and task tracking.
+                                        </li>
+                                        <li>
+                                            Collaborated with product owners, UI/UX designers, and QA engineers to deliver quality features on time.
                                         </li>
                                     </ul>
                                 </div>
