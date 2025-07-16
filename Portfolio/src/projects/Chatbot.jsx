@@ -6,7 +6,7 @@ const Chatbot = () => {
       <section className="container-fluid project-detail-cont">
         <div className="project-details">
           <p>
-            I developed a Career Guidance Chatbot integrated into a dynamic, user-friendly website designed to assist students from diverse educational backgrounds in exploring potential career paths. The primary objective of this project was to create an accessible digital tool that could guide students in making informed career decisions through interactive and personalized conversations.
+            For my Engineering Final year project, I developed a Career Guidance Chatbot along with my three other teammates. We integrated the chatbot into a dynamic, user-friendly website designed to assist students from diverse educational backgrounds in exploring potential career paths. The primary objective of this project was to create an accessible digital tool that could guide students in making informed career decisions through interactive and personalized conversations.
           </p>
           <p>
             The front-end of the website was developed using HTML, CSS, PHP, and basic JavaScript, with a strong emphasis on UI/UX design to ensure a clean, intuitive, and engaging user interface. My primary focus was on crafting an interactive and visually appealing front-end that could provide a seamless experience for users navigating the chatbot system. I designed responsive layouts, implemented interactive elements, and ensured cross-browser compatibility to enhance accessibility across different devices.
