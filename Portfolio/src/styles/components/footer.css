@@ -92,6 +92,15 @@ a {
   .contact-head h1 {
     font-size: 2.5rem;
   }
+
+  .footer-menu-list {
+    margin: 0;
+  }
+
+  .ft-part-1,
+  .ft-part-2 {
+    padding: 1rem 2rem;
+  }
 }
 
 /* 📱 Mobile (≤600px) */
@@ -127,6 +136,30 @@ a {
   }
 
   .socials a {
-    margin: 0rem;
+    margin: 0.2rem;
+  }
+
+  .footer-menu-list {
+    margin: 0;
+  }
+
+  .ft-part-1,
+  .ft-part-2 {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-menu {
+    display: block;
+  }
+
+  .footer-menu-list {
+    margin: 0;
+  }
+
+  .ft-part-1,
+  .ft-part-2 {
+    padding: 1rem;
   }
 }
