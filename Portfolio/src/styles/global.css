@@ -92,7 +92,7 @@ hr {
 /* For screens between 768px and 1023px (tablets and small desktops) */
 @media (max-width: 1023px) {
   body {
-    padding-top: 25px;
+    padding-top: 35px;
   }
 
   .container-fluid {
@@ -117,7 +117,7 @@ hr {
 }
 
 /* For screens between 576px and 767px (small devices like smartphones in portrait mode) */
-@media (max-width: 767px) {
+@media (max-width: 750px) {
   body {
     padding-top: 0;
   }
