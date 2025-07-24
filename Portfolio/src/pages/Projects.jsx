@@ -18,7 +18,7 @@ const Projects = () => {
           <Link to="/projects/secondclinic">
             <div className="container-fluid project-card">
               <div className="project-img">
-                <img src={doctor} alt="" />
+                <img src={doctor} alt="Healtcare Web App" />
               </div>
               <h6>Healthcare Web App</h6>
               {/* <span>March 2025 - May 2025</span> */}
