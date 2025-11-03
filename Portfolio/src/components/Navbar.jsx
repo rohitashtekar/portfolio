@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import '../styles/components/navbar.css'
-import brandLight from '../assets/brand-light.png';
-import brandDark from '../assets/brand-dark.png';
+import brandLight from '../assets/brand-light.webp';
+import brandDark from '../assets/brand-dark.webp';
 
 const Navbar = ({ isDark, setIsDark }) => {
 

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styles/pages/about.css';
-import abtImg from '../assets/abt-img.png';
+import abtImg from '../assets/abt-img.webp';
 import Contact from '../components/Contact';
 
 const About = () => {

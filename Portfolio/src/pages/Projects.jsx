@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import '../styles/pages/projects.css';
-import chatbot from '../assets/chatbot.jpg';
-import coffee from '../assets/coffee.jpg';
-import doctor from '../assets/doctor.jpg';
+import chatbot from '../assets/chatbot.webp';
+import coffee from '../assets/coffee.webp';
+import doctor from '../assets/doctor.webp';
 import Contact from '../components/Contact';
 
 const Projects = () => {
