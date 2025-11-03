@@ -28,11 +28,10 @@
 .hero-text {
   display: flex;
   margin: 2rem 0;
-  justify-content: space-around;
   text-align: left;
 }
 
-.hero-text p {
+.hero-text p,.hero-card {
   color: var(--secondary-text-color);
 }
 
@@ -43,6 +42,7 @@
 .hero-text h2 {
   color: var(--tertiary-text-color);
   font-size: 2.5rem;
+  padding: 1rem 0;
 }
 
 .hero-btn {
@@ -50,22 +50,31 @@
   padding: 0.5rem 1rem;
 }
 
-.desc h4 {
+.cards-container {
+  display: flex;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+  align-items: end;
+}
+
+.hero-card {
+  height: 12rem;
+  width: 10rem;
+  font-size: 0.9rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--primary-text-color);
+  border-radius: 2%;
+  box-shadow: 1px 1px 0.5px 0.5px;
+}
+
+.desc h5 {
   color: var(--primary-text-color);
 }
 
 .desc p {
-  text-align: justify;
-  font-size: 0.9rem;
-}
-
-.hero-img-cont {
-  position: relative;
-  display: flex;
-  height: 22rem;
-  width: 12rem;
-  top: 4rem;
-  border: 1px solid var(--secondary-text-color);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .img-cont {
@@ -145,14 +154,9 @@
     width: 10rem;
     top: 0;
   }
-
-  .desc {
-    padding: 0 1rem;
-  }
-
-  .desc p {
-    padding: 0 8rem;
-    text-align: justify;
+  
+  .cards-container {
+    flex-wrap: wrap;
   }
 
   .part-2 h1 {
@@ -211,14 +215,6 @@
     height: 18rem;
     width: 10rem;
     top: 0;
-  }
-
-  .desc {
-    padding: 0 1rem;
-  }
-
-  .desc p {
-    padding: 0 8rem;
   }
 
   .part-2 h1 {
@@ -285,11 +281,6 @@
   .hero-img-cont {
     height: 14rem;
     width: 8rem;
-  }
-
-  .desc p {
-    padding: 0 4rem;
-    text-align: justify;
   }
 
   .part-2 h1 {
@@ -359,10 +350,6 @@
   .hero-img-cont {
     height: 14rem;
     width: 8rem;
-  }
-
-  .desc p {
-    padding: 0 2rem;
   }
 
   .part-2 h1 {
