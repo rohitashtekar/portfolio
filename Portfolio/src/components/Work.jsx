@@ -24,12 +24,14 @@ const Work = () => {
                         </div>
                         <div className="cfe form-input">
                             <label htmlFor="form-email">Email</label>
-                            <input type="email" id="form-email" placeholder="Enter your email address" required={true} />
+                            <input type="email" id="form-email" name="email" placeholder="Enter your email address" required={true} />
+                            <ValidationError prefix="Email" field="email" errors={state.errors} />
                         </div>
                     </div>
                     <div className="cft form-input">
-                        <label htmlFor="form-ta">Message</label>
-                        <input type="textarea" id="form-ta" placeholder="Enter your message" required={true}/>
+                        <label htmlFor="form-message">Message</label>
+                        <input type="textarea" id="form-message" name="message" placeholder="Enter your message" required={true}/>
+                        <ValidationError prefix="Message" field="message" errors={state.errors} />
                     </div>
                     <div className="btn-cont">
                         <button type="submit" disabled={state.submitting} className="btn my-3">Send <i className="bi bi-arrow-right ps-2"></i></button>
