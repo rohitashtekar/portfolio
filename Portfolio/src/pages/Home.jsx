@@ -8,13 +8,13 @@ const Home = () => {
 
   useEffect(() => {
     if (!hasAnimated) {
-      let splashScreen = document.getElementById('splash-screen');
+      const splashScreen = document.getElementById("splash-screen");
       if (splashScreen) {
-        splashScreen.classList.add('ss-anim');
+        splashScreen.classList.add("ss-anim");
         setHasAnimated(true);
       }
     }
-  }, []);
+  }, [hasAnimated]);
 
   return (
     <>
@@ -22,7 +22,7 @@ const Home = () => {
       <div className="ss-container" id="splash-screen">
         <span>Welcome.</span>
       </div>
-      
+
       {/* Home Page Component */}
       <section className="container-fluid" data-section="ek">
         <div className="part-1">
@@ -57,13 +57,13 @@ const Home = () => {
         <div className="part-2 container-fluid">
           <div className="part-left">
             <h1>
-              I code & <br/>
+              I code & <br />
               build stuff
             </h1>
             <p>
-              Turning designs into 
+              Turning designs into
               real life products, web apps
-              and experimentals. 
+              and experimentals.
             </p>
             <Link to="/projects">
               <button className="btn">See my Projects <i className="bi bi-arrow-right ps-2"></i></button>
@@ -71,12 +71,12 @@ const Home = () => {
           </div>
           <div className="part-right">
             <h1>
-              I click pictures,<br/>
+              I click pictures,<br />
               sometimes
             </h1>
             <p>
-              Capturing the nature, beautiful skies, 
-              random objects, 
+              Capturing the nature, beautiful skies,
+              random objects,
               interesting venues.
             </p>
             <a href='https://www.instagram.com/throughaphonelens_/' target="_blank">
