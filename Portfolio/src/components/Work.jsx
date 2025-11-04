@@ -1,6 +1,11 @@
+import { useForm } from '@formspree/react';
 import '../styles/components/work.css'
 
 const Work = () => {
+    const [state, handleSubmit] = useForm("mgvpjreg");
+    if (state.succeeded) {
+        return <p>Success! I will get back to you shortly.</p>;
+    }
     return (
         <>
             {/* Work together */}
@@ -8,10 +13,10 @@ const Work = () => {
                 <div className="work-head">
                     <h1>Send me a message!</h1>
                     <p>
-                        Got a question or proposal, or just want <br/> to say hello? Go ahead.
+                        Got a question or proposal, or just want <br /> to say hello? Go ahead.
                     </p>
                 </div>
-                <form>
+                <form onSubmit={handleSubmit} method="POST">
                     <div className="form-row">
                         <div className="cfn form-input">
                             <label htmlFor="form-name">Name</label>
@@ -24,10 +29,10 @@ const Work = () => {
                     </div>
                     <div className="cft form-input">
                         <label htmlFor="form-ta">Message</label>
-                        <textarea type="textarea" id="form-ta" placeholder="Enter your message" required={true} />
+                        <input type="textarea" id="form-ta" placeholder="Enter your message" required={true}/>
                     </div>
                     <div className="btn-cont">
-                        <button type="submit" className="btn my-3">Shoot <i className="bi bi-arrow-right ps-2"></i></button>
+                        <button type="submit" disabled={state.submitting} className="btn my-3">Send <i className="bi bi-arrow-right ps-2"></i></button>
                     </div>
                 </form>
             </section>
