@@ -4,7 +4,7 @@ import '../styles/components/work.css'
 const Work = () => {
     const [state, handleSubmit] = useForm("mgvpjreg");
     if (state.succeeded) {
-        return <p>Success! I will get back to you shortly.</p>;
+        return <p className="formSuccess">Success! I will get back to you shortly.</p>;
     }
     return (
         <>
