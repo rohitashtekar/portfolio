@@ -52,7 +52,7 @@
 
 .cards-container {
   display: flex;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   justify-content: center;
   align-items: end;
 }
@@ -256,7 +256,6 @@
   .part-1,
   .part-2 {
     padding: 0 1rem;
-    margin: 2rem 0;
   }
 
   .hero-text h1 {
@@ -329,7 +328,6 @@
   .part-1,
   .part-2 {
     padding: 0 1rem;
-    margin: 3rem 0;
   }
 
   .hero-text h1 {
