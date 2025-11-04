@@ -1,12 +1,16 @@
 /* Navbar */
 .navbar {
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
   top: 0;
   width: 100%;
   background-color: var(--background-color);
   z-index: 999;
-  padding: 0.8rem 1.5rem;
   transition: background-color 0.3s ease;
+}
+
+.navbar .container-fluid {
+  padding: 0 5.8rem;
 }
 
 .nav-logo {
