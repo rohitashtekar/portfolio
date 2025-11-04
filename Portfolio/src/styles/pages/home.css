@@ -27,7 +27,7 @@
 
 .hero-text {
   display: flex;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
   text-align: left;
 }
 
@@ -54,7 +54,7 @@
   display: flex;
   margin-bottom: 2rem;
   justify-content: center;
-  align-items: end;
+  align-items: center;
 }
 
 .hero-card {
@@ -97,7 +97,7 @@
 
 .part-2 {
   display: flex;
-  margin: 5rem 0;
+  margin: 5.5rem 0;
   padding: 0 5.75rem;
   justify-content: space-between;
 }
