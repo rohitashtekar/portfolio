@@ -42,6 +42,10 @@
 
 /* Tablet (≤992px) */
 @media (max-width: 992px) {
+  .navbar .container-fluid {
+    padding: 0 2rem;
+  }
+
   .nav-logo {
     height: 2.2rem;
     display: flex;
@@ -93,5 +97,17 @@
 
   .disp-mode {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar .container-fluid {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 190px) {
+  .navbar .container-fluid {
+    padding: 0;
   }
 }
