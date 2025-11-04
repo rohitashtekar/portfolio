@@ -6,16 +6,16 @@ const Footer = () => {
     <>
       <footer className="ft-container">
         <div className="container-fluid">
-          <div className="ft-part-1">
-            <h6 className="say-hello">
-              Say Hello
-            </h6>
-            <div className="footer-menu">
+          <div className="ft-part-1 container">
+            <div>
+              <h6 className="say-hello">Say Hello</h6>
+            </div>
+            <div className="ft-menu">
               <div className="ft-contact">
                 <li><a href="mailto:rrashtekar@gmail.com">rrashtekar@gmail.com</a></li>
                 <li><a href="https://wa.me/919482159328">wa.me/rohit.ashtekar</a></li>
               </div>
-              <div className="footer-menu-list">
+              <div className="ft-menu-list">
                 <Link to="/projects"><li>My Projects</li></Link>
                 <Link to="/skills"><li>My Skills</li></Link>
                 <Link to="/about"><li>About</li></Link>
