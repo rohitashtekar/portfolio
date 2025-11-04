@@ -1,4 +1,4 @@
-import { useForm } from '@formspree/react';
+import { useForm, ValidationError } from '@formspree/react';
 import '../styles/components/work.css'
 
 const Work = () => {
