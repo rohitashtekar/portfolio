@@ -15,6 +15,7 @@
 
 .project-card {
   text-align: justify;
+  width: 14.8rem;
   max-width: 20rem;
   padding: 1rem;
   background-color: var(--foreground-color);
@@ -66,7 +67,11 @@
   }
 
   .project-card {
+    width: 10.8rem;
     flex: 1 1 45%; /* Allow two cards per row */
+  }
+  .project-card > h6 {
+    font-size: 0.8rem;
   }
 
   .project-details {
@@ -88,12 +93,12 @@
   }
 
   .project-card {
+    width: 10.8rem;
     max-width: 100%;
     flex: 1 1 45%; /* Stack two cards per row on small devices */
   }
-
   .project-card > h6 {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 
   .project-card > p {
