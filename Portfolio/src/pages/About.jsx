@@ -8,7 +8,7 @@ const About = () => {
     <>
       <section className="container-fluid about-cont">
         <div className="about-inner">
-          <h3 className="header">ABOUT ME</h3>
+          <h3 className="header">About Me</h3>
           <div className="details">
             <div className="det-text">
               <p>
@@ -47,7 +47,7 @@ const About = () => {
           </button>
         </div>
       </Link>
-      <section>
+      <section className="container-fluid">
         <Contact />
       </section>
     </>

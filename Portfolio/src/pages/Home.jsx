@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Work from '../components/Work';
+import ScrollDown from '../components/ScrollDown';
 import '../styles/pages/home.css';
 
 const Home = () => {
@@ -47,9 +48,12 @@ const Home = () => {
 
             <div className="desc hero-card">
               <h5>Design Principles</h5>
-              <p>Simplicity & Clarity, A great design is born of those two things.</p>
+              <p>Simplicity & Clarity, A great design is born of these two things.</p>
             </div>
           </div>
+        </div>
+        <div className="anim-cont">
+          <ScrollDown />
         </div>
       </section>
 

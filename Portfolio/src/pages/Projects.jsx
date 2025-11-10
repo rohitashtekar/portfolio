@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styles/pages/projects.css';
+import ScrollDown from '../components/ScrollDown';
 import chatbot from '../assets/chatbot.webp';
 import coffee from '../assets/coffee.webp';
 import doctor from '../assets/doctor.webp';
@@ -9,9 +10,9 @@ const Projects = () => {
 
   return (
     <>
-      <section className="container-fluid mb-5">
+      <section className="container-fluid">
         <div>
-          <h3 className="header">PAST PROJECTS</h3>
+          <h3 className="header">Past Projects</h3>
         </div>
         <div className="project-list container-fluid">
 
@@ -44,8 +45,10 @@ const Projects = () => {
               {/* <span>February 2019 - April 2019</span> */}
             </div>
           </Link>
-
         </div>
+          <div className="anim-cont">
+            <ScrollDown />
+          </div>
         <hr />
         <Contact />
       </section>
