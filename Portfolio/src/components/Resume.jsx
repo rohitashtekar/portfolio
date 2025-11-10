@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/components/resume.css';
-import RAres from '../assets/RAresume.pdf';
+import RAres from '../assets/Resume.pdf';
 
 const Resume = () => {
     const navigate = useNavigate();
