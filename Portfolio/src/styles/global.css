@@ -26,6 +26,11 @@ hr {
   color: var(--primary-text-color);
 }
 
+/* Input */
+input {
+  text-transform: capitalize;
+}
+
 /* Container */
 .container-fluid {
   max-width: 1320px;
@@ -38,6 +43,7 @@ hr {
   padding: 0;
   font-weight: 100;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Button */
@@ -68,6 +74,13 @@ hr {
   font-size: 1.05rem;
   line-height: 1.8;
   text-align: justify;
+}
+
+/* Scroll down animation container */
+.anim-cont {
+  display: flex;
+  width: 100%;
+  justify-content: end;
 }
 
 /* -------- Responsive Design -------- */
