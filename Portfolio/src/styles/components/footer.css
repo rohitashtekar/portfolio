@@ -21,10 +21,6 @@
   list-style-type: none;
 }
 
-.ft-contact {
-  margin-right: 2rem;
-}
-
 .ft-part-1 li,
 a {
   color: var(--primary-text-color);
@@ -94,7 +90,7 @@ a {
   }
 
   .ft-menu-list {
-    margin: 0;
+    margin: 0 1rem;
   }
 
   .ft-part-1,
@@ -140,7 +136,7 @@ a {
   }
 
   .ft-menu-list {
-    margin: 0;
+    margin: 0 0.5rem;
   }
 
   .ft-part-1,

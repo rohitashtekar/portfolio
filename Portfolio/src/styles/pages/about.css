@@ -21,7 +21,6 @@
 .det-img-cont {
   display: flex;
   justify-content: center;
-  flex: 1 1 20rem;
 }
 
 .about-img {

@@ -118,6 +118,11 @@
   text-align: left;
 }
 
+.container-3 {
+  display: flex;
+  justify-content: center;
+}
+
 /* ---------- Tablet (≤1141px) ---------- */
 @media (max-width: 1141px) {
 
