@@ -93,7 +93,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section data-section="teen">
+      <section className="container-3" data-section="teen">
         <Work />
       </section>
     </>
