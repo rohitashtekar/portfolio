@@ -1,0 +1,12 @@
+.terms-container {
+    color: var(--primary-text-color);
+    padding: 4rem 5.5rem;
+}
+
+.divider {
+    margin: 2rem 0;
+}
+
+.terms-card {
+    margin: 2rem 0;
+}
