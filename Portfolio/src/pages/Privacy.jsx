@@ -6,7 +6,7 @@ const Privacy = () => {
             <div className="privacy-container container-fluid">
 
                 <h3 className="terms-title">Privacy Policy</h3>
-                <p className="terms-date">Last Updated: 10-11-2025</p>
+                <span className="terms-date">Last Updated: 10-11-2025</span>
 
                 <div className="terms-card">
                     <h5 className="terms-head">1. Information I Collect</h5>

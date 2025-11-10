@@ -5,12 +5,13 @@ const Terms = () => {
     <>
       <div className="terms-container container-fluid">
 
-        <h6>Last Updated: 11-10-2025</h6>
+        <h3 className="terms-title">Terms & Conditions</h3>
+        <span className="terms-date">Last Updated: 10-11-2025</span>
 
         <h5>
           Welcome to my Personal Portfolio, operated by Mr.Rohit Ashtekar.
           <div className="divider"></div>
-          By accessing or using this Website, you agree to comply with and be bound by the following Terms and Conditions. If you do not agree with any part of these terms-desc, please do not use this Website.
+          By accessing or using this Website, you agree to comply with and be bound by the following Terms and Conditions. If you do not agree with any part of these terms, please do not use this Website.
         </h5>
 
         <hr />
