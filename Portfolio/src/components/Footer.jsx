@@ -20,6 +20,10 @@ const Footer = () => {
                 <Link to="/skills"><li>My Skills</li></Link>
                 <Link to="/about"><li>About</li></Link>
               </div>
+              <div className="ft-terms-menu">
+                <Link to="/terms"><li>Terms & Conditions</li></Link>
+                <Link to="/privacy"><li>Privacy Policy</li></Link>
+              </div>
             </div>
           </div>
           <div className="ft-part-2 container">
