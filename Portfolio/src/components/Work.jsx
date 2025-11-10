@@ -9,7 +9,7 @@ const Work = () => {
     return (
         <>
             {/* Work together */}
-            <section className="container-fluid work-container mt-5">
+            <section className="container-fluid work-container">
                 <div className="work-head">
                     <h1>Send me a message!</h1>
                     <p>
@@ -20,17 +20,17 @@ const Work = () => {
                     <div className="form-row">
                         <div className="cfn form-input">
                             <label htmlFor="form-name">Name</label>
-                            <input type="text" id="form-name" placeholder="Enter you full name" required={true} />
+                            <input type="text" id="form-name" placeholder="Enter you full name" required={true} autoComplete="off"/>
                         </div>
                         <div className="cfe form-input">
                             <label htmlFor="form-email">Email</label>
-                            <input type="email" id="form-email" name="email" placeholder="Enter your email address" required={true} />
+                            <input type="email" id="form-email" name="email" placeholder="Enter your email address" required={true} style={{textTransform: "none"}}/>
                             <ValidationError prefix="Email" field="email" errors={state.errors} />
                         </div>
                     </div>
                     <div className="cft form-input">
                         <label htmlFor="form-message">Message</label>
-                        <input type="textarea" id="form-message" name="message" placeholder="Enter your message" required={true}/>
+                        <input type="textarea" id="form-message" name="message" placeholder="Enter your message" required={true} autoComplete="off"/>
                         <ValidationError prefix="Message" field="message" errors={state.errors} />
                     </div>
                     <div className="btn-cont">
