@@ -5,7 +5,7 @@ const Skills = () => {
     <>
       <section className="container-fluid">
         <div>
-          <h3 className="header">MY SKILLS</h3>
+          <h3 className="header">My SKills</h3>
         </div>
         <div className="skills-container">
           <div className="skill-domain my-4">
