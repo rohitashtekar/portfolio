@@ -12,6 +12,7 @@ import Terms from './pages/Terms';
 import Skills from './pages/Skills';
 import ScrollToTop from './utils/ScrollToTop';
 import Resume from './components/Resume';
+import Privacy from './pages/Privacy';
 import { useState } from 'react';
 
 function App() {
@@ -24,10 +25,12 @@ function App() {
         <Routes>
           <Route element={<MainLayout isDark={isDark} setIsDark={setIsDark}/>}>
             <Route path='/' element={<Home />} />
+            <Route path='/home' element={<Home />} />
             <Route path='/projects' element={<Projects />} />
             <Route path='/skills' element={<Skills />} />
             <Route path='/about' element={<About />} />
             <Route path='/terms' element={<Terms />} />
+            <Route path='/privacy' element={<Privacy />} />
 
             {/* Projects */}
             <Route path='/projects/secondclinic' element={<SecondClinic />} />
