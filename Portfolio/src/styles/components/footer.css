@@ -1,7 +1,6 @@
 /* ft */
 .ft-container {
   color: var(--primary-text-color);
-  margin-top: 5rem;
   font-size: 1.25rem;
   z-index: 999;
   background-color: var(--foreground-color);
