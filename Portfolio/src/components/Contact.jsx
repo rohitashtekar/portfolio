@@ -16,16 +16,16 @@ const Contact = () => {
                         <div className="form-row">
                             <div className="cfn form-input">
                                 <label htmlFor="form-name">Name</label>
-                                <input type="text" id="form-name" placeholder="Enter you full name" required={true} />
+                                <input type="text" id="form-name" placeholder="Enter you full name" required={true} autoComplete="off"/>
                             </div>
                             <div className="cfe form-input">
                                 <label htmlFor="form-email">Email</label>
-                                <input type="email" id="form-email" placeholder="Enter your email address" required={true} />
+                                <input type="email" id="form-email" placeholder="Enter your email address" required={true} style={{textTransform: "none"}}/>
                             </div>
                         </div>
                         <div className="cft form-input">
                             <label htmlFor="form-ta">Message</label>
-                            <textarea type="textarea" id="form-ta" placeholder="Enter your message" required={true} />
+                            <input type="textarea" id="form-ta" placeholder="Enter your message" required={true} autoComplete="off"/>
                         </div>
                         <div className="btn-cont">
                             <button type="submit" className="btn my-3">Submit <i className="bi bi-arrow-right ps-2"></i></button>
