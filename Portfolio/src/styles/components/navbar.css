@@ -21,12 +21,10 @@
   color: var(--primary-text-color);
   margin: 0 1rem;
   font-size: 1rem;
-  transition: color 0.2s ease;
 }
 
-.navbar-nav li a:hover,
-.navbar-nav li a:focus {
-  color: rgb(105, 105, 105);
+.navbar-nav li a:hover {
+  color: rgb(149, 149, 149);
 }
 
 .disp-mode {
@@ -38,6 +36,11 @@
 .disp-mode>i:hover {
   cursor: pointer;
   color: var(--tertiary-text-color);
+}
+
+/* Nav Link Active */
+.navbar-nav .nav-link.active {
+  color: rgb(86, 86, 86) !important;
 }
 
 /* Tablet (≤992px) */
