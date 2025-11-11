@@ -134,14 +134,18 @@ a {
   .socials a {
     margin: 0.2rem;
   }
+  
+  .ft-menu {
+    display: block;
+  }
 
   .ft-menu-list {
-    margin: 0 0.5rem;
+    margin: 0;
   }
 
   .ft-part-1,
   .ft-part-2 {
-    padding: 1rem;
+    padding: 2rem;
   }
 }
 
@@ -157,5 +161,9 @@ a {
   .ft-part-1,
   .ft-part-2 {
     padding: 1rem;
+  }
+  
+  .ft-part-1 li,a {
+    font-size: 0.8rem;
   }
 }
