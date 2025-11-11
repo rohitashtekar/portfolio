@@ -40,9 +40,9 @@
   color: var(--primary-text-color);
 }
 
-.hero-text .fs-dev {
+.hero-text .fs-dev,.rohit {
   color: var(--tertiary-text-color);
-  padding-top: 3rem;
+  padding: 1.45rem 0;
 }
 
 .hero-btn {
