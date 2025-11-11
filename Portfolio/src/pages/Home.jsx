@@ -29,9 +29,9 @@ const Home = () => {
         <div className="part-1">
           <div className="hero-text flex-column part-left">
             <h1>Hi, I am</h1>
-            <h2>Rohit.</h2>
+            <h2 className="rohit">Rohit.</h2>
             <Link className="btn hero-btn" to="/resume">View CV</Link>
-            <h2 className="pt-5">Full Stack Developer.</h2>
+            <h2 className="fs-dev">Full Stack Developer.</h2>
             <p>03 years of Experience.</p>
           </div>
 
