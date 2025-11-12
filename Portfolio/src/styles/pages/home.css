@@ -36,11 +36,11 @@
   color: var(--secondary-text-color);
 }
 
-.hero-text h1, h2 {
+.hero-text h1 {
   color: var(--primary-text-color);
 }
 
-.hero-text .fs-dev,.rohit {
+.hero-text .fs-dev {
   color: var(--tertiary-text-color);
   padding: 1.45rem 0;
 }
