@@ -54,7 +54,7 @@
   padding-top: 2.6rem;
 }
 
-.hero-btn {
+.cta-btn {
   width: 8.5rem;
   padding: 0.5rem 1rem;
 }
@@ -197,7 +197,7 @@
   }
 
   /* Hero Button Adjustments */
-  .hero-btn {
+  .cta-btn {
     width: 12rem;
     padding: 0.7rem 1.2rem;
     font-size: 1rem;
@@ -262,7 +262,7 @@
   }
 
   /* Hero Button Adjustments */
-  .hero-btn {
+  .cta-btn {
     width: 12rem;
     padding: 0.7rem 1.2rem;
     font-size: 1rem;
@@ -293,7 +293,7 @@
     font-size: 1rem;
   }
 
-  .hero-btn {
+  .cta-btn {
     width: 100%;
     max-width: 10rem;
     font-size: 0.95rem;
@@ -335,7 +335,7 @@
   }
 
   /* Hero Button Adjustments */
-  .hero-btn {
+  .cta-btn {
     width: 12rem;
     font-size: 1rem;
     padding: 0.7rem 1.2rem;
@@ -362,7 +362,7 @@
     font-size: 0.95rem;
   }
 
-  .hero-btn {
+  .cta-btn {
     width: 100%;
     max-width: 10rem;
     font-size: 0.9rem;
@@ -405,7 +405,7 @@
   }
 
   /* Hero Button Adjustments */
-  .hero-btn {
+  .cta-btn {
     width: 12rem;
     font-size: 0.9rem;
     padding: 0.5rem;
@@ -442,7 +442,7 @@
     font-size: 1rem;
   }
 
-  .hero-btn {
+  .cta-btn {
     width: 100%;
     max-width: 8rem;
     font-size: 0.85rem;
@@ -469,7 +469,7 @@
     font-size: 0.5rem;
   }
 
-  .hero-btn {
+  .cta-btn {
     width: 12rem;
     font-size: 0.8rem;
     padding: 0.2rem;

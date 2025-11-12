@@ -30,7 +30,7 @@ const Home = () => {
           <div className="hero-text flex-column part-left">
             <h1>Hi, I am</h1>
             <h1 className="rohit">Rohit.</h1>
-            <Link className="btn hero-btn" to="/resume">View CV</Link>
+            <Link className="btn cta-btn" to="/resume">View CV</Link>
             <h2 className="fs-dev">Full Stack Developer.</h2>
             <p>03 years of Experience.</p>
           </div>
