@@ -16,7 +16,7 @@ const Resume = () => {
                     <div className="res-left">
                         <div className="box">
                             <button className="btn box-btn" onClick={ navigatePageBack }><i className="fa-solid fa-backward"></i> BACK </button>
-                            <a className="btn box-btn" href={ RAres } target="_blank"><i className="fa-solid fa-download"> DOWNLOAD </i></a>
+                            <a className="btn box-btn" href={ RAres } target="_blank" download><i className="fa-solid fa-download"> DOWNLOAD </i></a>
                             <Link className="box-btn" to="https://www.linkedin.com/in/rohit-ashtekar-140536125" target="_blank"><i className="fa-brands fa-linkedin fa-2xl text-dark"></i></Link>
                         </div>
                         <div className="left-inner">
@@ -53,7 +53,7 @@ const Resume = () => {
                                 <h6>Back-End:</h6>
                                 <span>
                                     Node.js, REST
-                                    APIs
+                                    APIs, Express.js
                                 </span>
                                 <h6>Tools & Platforms:</h6>
                                 <span>
@@ -63,7 +63,7 @@ const Resume = () => {
                                 </span>
                                 <h6>Database: </h6>
                                 <span>
-                                    MySQL
+                                    MongoDB, MySQL
                                 </span>
                                 <h6>Testing:</h6>
                                 <span>
@@ -111,7 +111,7 @@ const Resume = () => {
                                 </div>
                                 <div className="we-comp">
                                     <h6>UIPEP Technologies Pvt. Ltd.</h6>
-                                    <p>MEAN Stack Developer <br /></p>
+                                    <p>MERN/MEAN Stack Developer <br /></p>
                                     <span>October 2021 – February 2024</span>
                                     <ul>
                                         <li>
@@ -136,7 +136,7 @@ const Resume = () => {
                                     </ul>
                                 </div>
                                 <div className="we-comp">
-                                    <p>Intern – MEAN Stack Developer <br /></p>
+                                    <p>Intern – MERN/MEAN Stack Developer <br /></p>
                                     <span>April 2021 – September 2021</span>
                                     <ul>
                                         <li>
