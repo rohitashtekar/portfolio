@@ -3,8 +3,6 @@
     transform: translateY(-300%);
     height: 2rem;
     width: 1.3rem;
-    border: 1px solid var(--primary-text-color);
-    border-radius: 10%;
 }
 
 .scroll-down::after,
