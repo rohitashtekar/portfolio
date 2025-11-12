@@ -40,7 +40,7 @@
 
 /* Nav Link Active */
 .navbar-nav .nav-link.active {
-  color: rgb(86, 86, 86) !important;
+  color: var(--tertiary-text-color) !important;
 }
 
 /* Tablet (≤992px) */
