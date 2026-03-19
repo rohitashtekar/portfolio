@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/components/resume.css';
-import RAres from '../assets/Resume.pdf';
+import RAres from '../assets/RAD.pdf';
 
 const Resume = () => {
     const navigate = useNavigate();
@@ -15,8 +15,8 @@ const Resume = () => {
                 <div className="resume">
                     <div className="res-left">
                         <div className="box">
-                            <button className="btn box-btn" onClick={ navigatePageBack }><i className="fa-solid fa-backward"></i> BACK </button>
-                            <a className="btn box-btn" href={ RAres } target="_blank" download><i className="fa-solid fa-download"> DOWNLOAD </i></a>
+                            <button className="btn box-btn" onClick={navigatePageBack}><i className="fa-solid fa-backward"></i> BACK </button>
+                            <a className="btn box-btn" href={RAres} target="_blank" download><i className="fa-solid fa-download"> DOWNLOAD </i></a>
                             <Link className="box-btn" to="https://www.linkedin.com/in/rohit-ashtekar-140536125" target="_blank"><i className="fa-brands fa-linkedin fa-2xl text-dark"></i></Link>
                         </div>
                         <div className="left-inner">
@@ -24,7 +24,7 @@ const Resume = () => {
                                 <h5>Contact</h5>
                                 <h6 className="mt-3">Phone: +91-9482159328</h6>
                                 <h6>E-mail: rrashtekar@gmail.com</h6>
-                                <h6>Town: Belgaum, India</h6>
+                                <h6>Hometown: Belgaum, India</h6>
                             </div>
                             <div className="left-p lp2">
                                 <h5>Education</h5>
@@ -47,7 +47,7 @@ const Resume = () => {
                                 </span>
                                 <h6>Languages:</h6>
                                 <span>
-                                    JavaScript, C/C++
+                                    JavaScript, C/C++, Python (Basics)
 
                                 </span>
                                 <h6>Back-End:</h6>
@@ -67,8 +67,12 @@ const Resume = () => {
                                 </span>
                                 <h6>Testing:</h6>
                                 <span>
-                                    Basic familiarity with
+                                    Cypress.js, Basic familiarity with
                                     JEST
+                                </span>
+                                <h6>Artificial Intelligence:</h6>
+                                <span>
+                                    Prompt Engineering,Generative AI & LLMs - ChatGPT, Claude.ai, MS CoPilot
                                 </span>
                             </div>
                             <div className="left-p lp4">
@@ -95,17 +99,16 @@ const Resume = () => {
                                     <span>March 2024 – June 2024</span>
                                     <ul>
                                         <li>
-                                            Developed and optimized React components for a customer-facing web app, improving user engagement.
+                                            Developed and optimized React.js components for a customer-facing web application, improving user engagement.
                                         </li>
                                         <li>
-                                            Identified and resolved bugs in existing React applications, enhancing stability and reducing user complaints.
+                                            Debugged and resolved production issues, increasing application stability and reducing user complaints.
                                         </li>
                                         <li>
-                                            Collaborated with the UI/UX team to improve application interfaces, resulting in a 5% increase in conversion
-                                            rates.
+                                            Collaborated with UI/UX designers to enhance interfaces, resulting in a 5% increase in conversion rates.
                                         </li>
                                         <li>
-                                            Implemented comprehensive error handling and debugging procedures, minimizing post-deployment issue
+                                            Implemented structured error handling and debugging practices to reduce post-deployment issues.
                                         </li>
                                     </ul>
                                 </div>
@@ -115,23 +118,21 @@ const Resume = () => {
                                     <span>October 2021 – February 2024</span>
                                     <ul>
                                         <li>
-                                            Developed key front-end features including infinite scroll, image carousel, ad units, and dynamic event pages using 
-                                            JavaScript, HTML, and CSS — resulting in smoother user interactions across multiple client websites.
+                                            Built and maintained interactive frontend features such as infinite scroll, image carousels, ad units, and dynamic
+                                            pages using JavaScript, HTML, and CSS - resulting in smoother user interactions across multiple client websites.
                                         </li>
                                         <li>
-                                            Improved web performance and load times by resolving UI bugs and optimizing page components.
+                                            Improved page load times and performance by optimizing UI components and fixing rendering issues.
+.
                                         </li>
                                         <li>
-                                            Integrated third-party tools such as Amplitude and Google Analytics for real-time event tracking.
+                                            Integrated Google Analytics and Amplitude for real-time event tracking and user behavior analysis.
                                         </li>
                                         <li>
-                                            Implemented Securiti.ai, a Cookie consent management platform, enhancing user experience and compliance
+                                            Implemented Securiti.ai for cookie consent and GDPR - enhancing user experience and compliance.
                                         </li>
                                         <li>
-                                            Contributed in Agile/Scrum teams using Jira for sprint planning and task tracking.
-                                        </li>
-                                        <li>
-                                            Collaborated with product owners, UI/UX designers, and QA engineers to deliver quality features on time.
+                                            Collaborated with product managers, UI/UX designers, and QA engineers in an Agile/Scrum environment using Jira, ensuring timely delivery of quality features.
                                         </li>
                                     </ul>
                                 </div>
@@ -140,17 +141,16 @@ const Resume = () => {
                                     <span>April 2021 – September 2021</span>
                                     <ul>
                                         <li>
-                                            Developed user credit management and payment gateway functionality using Angular, Stripe API, and Node.js.
+                                            Developed frontend UI components and backend APIs using Angular, Node.js, and Stripe API to support user credit management.
                                         </li>
                                         <li>
-                                            Collaborated with developers and UX/UI designers to optimize the user interface, leading to a 20% increase in
-                                            user engagement.
+                                            Improved UI usability, increasing user engagement by 10%.
                                         </li>
                                         <li>
-                                            Built RESTful APIs to integrate with the website, improving application functionality and data flow.
+                                            Designed and integrated RESTful APIs to streamline data flow and enhance application performance.
                                         </li>
                                         <li>
-                                            Worked with Git for version control and Agile methodologies for project management.
+                                            Utilized Git and Agile methodologies to ensure efficient development and timely feature delivery.
                                         </li>
                                     </ul>
                                 </div>
