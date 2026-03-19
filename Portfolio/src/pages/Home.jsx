@@ -31,8 +31,8 @@ const Home = () => {
             <h1>Hi, I am</h1>
             <h1 className="rohit">Rohit.</h1>
             <Link className="btn cta-btn" to="/resume">View CV</Link>
-            <h2 className="fs-dev">Full Stack Developer.</h2>
-            <p>03 years of Experience.</p>
+            <h2 className="fs-dev">Software <br /> Engineer.</h2>
+            <p>2+ years of Experience.</p>
           </div>
 
           <div className="cards-container">
