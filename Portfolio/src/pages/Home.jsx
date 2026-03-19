@@ -29,7 +29,7 @@ const Home = () => {
         <div className="part-1">
           <div className="hero-text flex-column part-left">
             <h1>Hi, I am</h1>
-            <h1 className="rohit">Rohit.</h1>
+            <h1 className="rohit" aria-label="rohit-ashtekar">Rohit.</h1>
             <Link className="btn cta-btn" to="/resume">View CV</Link>
             <h2 className="fs-dev">Software <br /> Engineer.</h2>
             <p>2+ years of Experience.</p>
