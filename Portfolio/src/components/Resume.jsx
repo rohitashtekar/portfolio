@@ -22,7 +22,6 @@ const Resume = () => {
                         <div className="left-inner">
                             <div className="left-p lp1">
                                 <h5>Contact</h5>
-                                <h6 className="mt-3">Phone: +91-9482159328</h6>
                                 <h6>E-mail: rrashtekar@gmail.com</h6>
                                 <h6>Hometown: Belgaum, India</h6>
                             </div>
